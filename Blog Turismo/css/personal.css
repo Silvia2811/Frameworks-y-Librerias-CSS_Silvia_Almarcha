@@ -1,0 +1,261 @@
+body{
+	background-color: #c5e1a5 ;
+}
+
+.encabezado{
+	background-image: url(../img/imagencabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 9rem;
+}
+
+.imagen{
+	border-radius: 30px;
+	position: relative;
+    transform: translateY(20%);
+}
+
+.menu{
+	margin-top: 1.5rem;
+}
+
+
+.colum{
+	margin-top: 1.8rem;
+	
+}
+
+a.btn-small{
+	margin-left: 3px;
+	margin-right: 4px;
+	font-size: 0.6rem;
+	padding-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+.btn-small{
+	padding-right: 7px;
+	padding-left: 4px;
+	width: auto;
+	height: auto;
+	box-shadow: 1px 1px black;
+	background-color: #616161;
+	border-radius: 3px;
+}
+
+.btn-comentario{
+	padding-right: 2px;
+	padding-left: 2px;
+	width: auto;
+	height: 2rem;
+	background-color: #616161;
+	border-radius: 8px;
+}
+
+a.btn-comentario{
+	margin-left: 3px;
+	margin-right: 5px;
+	font-size: 0.5rem;
+	
+}
+
+.imgcomentario{
+	height: 13rem;
+}
+
+.btn-chico{
+	width: 40px;
+	height: auto;
+	padding-left: 12px;
+	padding-right: 0px;
+	margin-right: 5px;
+	margin-left: 5px;
+	box-shadow: 1px 1px black;
+	background-color: #616161;
+	border-radius: 3px;
+	float: left;
+
+}
+
+.btn-icon{
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: transparent;
+	border-radius: 6px;
+	margin-bottom: 3rem;
+
+}
+
+.btn-icon:hover{
+	background-color: transparent;
+	box-shadow: 1.5px 1.5px #e0e0e0;
+
+}
+
+.btn-icon i{
+	color: white;
+	font-size: 46px;
+}
+
+i.material-icons{
+	font-size: 1rem;
+
+}
+
+.titulo{
+	font-family: 'Alex Brush';
+	font-size: 36px;
+	text-align: left;
+	color: white;
+}
+
+.title{
+	font-size: 1.5rem;
+	margin-left: 7px;
+	margin-top: 2rem;
+}
+.columna{
+	background-image: url(../img/imgfondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.column{
+	background-color: #f9fbe7;
+}
+
+.imggaleria{
+	height: 100%;
+	width: 100%;
+}
+
+.imgperfil{
+	width: 60%;
+	filter: grayscale(70%);
+}
+
+.columicon{
+	margin-top: 2.8rem;
+	
+}
+
+.margencolum{
+    margin-bottom: 12px;
+}
+
+.largo{
+	height: 595px;
+}
+
+.mediolargo{
+	height: 290px;
+}
+
+.semilargo{
+	height: 186px;
+}
+
+.comentario {
+    text-align: justify;
+}
+
+.margen{
+	margin-top: -25px;
+	
+}
+
+.margen1{
+	border-top: 5px solid black;
+}
+
+.borde,.borde1{
+	border: 6px solid transparent;
+}
+
+form i{
+	color: white;
+}
+
+@media(max-width: 600px){
+	
+	.encabezado{
+		height: auto;
+	}
+
+	.columicon{
+	   margin-top: 1rem;
+	
+    }
+	.titulo{
+		font-family: 'Alex Brush';
+	    font-size: 30px;
+	    text-align: center;
+	    color: black;
+	    margin-left: 15px;
+	}
+
+	.btn-chico{
+	    width: 40px;
+	    height: auto;
+	    padding-left: 12px;
+	    padding-right: 0px;
+	    margin-right: 5px;
+	    margin-left: 5px;
+	    margin-bottom: 5px;
+	    margin-top: 8px;
+	    box-shadow: 1px 1px black;
+	    background-color: #616161;
+	    border-radius: 3px;
+	    float: left;
+
+    }
+
+    .imagen{
+	    border-radius: 15px;
+	    width: 300%;
+	    margin-top: 0.9rem;
+}
+
+	.semilargo{
+	    height: 290px;
+}
+
+    
+    .imgcomentario{
+	    height: 15rem;
+}
+
+	.borde1{
+		border-left: 40px solid transparent;
+		border-right: 40px solid transparent;
+	}
+
+	.imgperfil{
+		width: 50%;
+		
+	 
+}
+
+}
+
+@media(max-width: 1069px){
+	.btn-small{
+	   padding-right: 7px;
+	   padding-left: 4px;
+	   width: auto;
+	   height: auto;
+	   box-shadow: 1px 1px black;
+	   background-color: #616161;
+	   border-radius: 3px;
+	   margin-right: 5px;
+	   margin-left: 5px;
+	   margin-top: 5px;
+	   float: right;
+	}   
+}
